@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="meta.title">Valentine Property &amp; Garden Care — Cleaning, Garden &amp; Property Care in Oslo</title>
+  <meta name="description" data-i18n-content="meta.description" content="Residential, hotel, restaurant and commercial cleaning, plus gardening, landscaping, tree work and property maintenance in Oslo, Norway.">
+  <meta name="theme-color" content="#1F3D2B">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Icon sprite: referenced with <svg><use href="#i-name"/></svg> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9H4z M10 20v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 10 5 20 4c0 10-5 15-14 15zM5 19l8-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="14" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M11 11l8-8M16 6l2 2M14 8l2 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18V7M3 14h18v4M21 14v-2a3 3 0 0 0-3-3h-7v5M6.5 11.5h1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-cutlery" viewBox="0 0 24 24"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M17 21V3c-2 1-3 4-3 8h3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V5l8-2v18M12 8h8v13M3 21h18M7 8h2M7 12h2M7 16h2M15 12h2M15 16h2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M12 21v-9M12 12C12 8 9 6 4 6c0 4 3 6 8 6zM12 10c0-3 2-6 8-6 0 4-3 6-8 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-grass" viewBox="0 0 24 24"><path d="M3 20h18M6 20c0-5-1-8-3-10M10 20c0-6 1-10 4-13M14 20c0-4 2-7 6-8M18 20c0-3-1-5-3-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 22v-6M12 3l6 8h-3l4 5H5l4-5H6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-flower" viewBox="0 0 24 24"><circle cx="12" cy="9" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7a2.5 2.5 0 1 1 2.4-3 2.5 2.5 0 1 1 1.6 4.7 2.5 2.5 0 1 1-1.6 4.6A2.5 2.5 0 1 1 9.6 13 2.5 2.5 0 1 1 8 8.3 2.5 2.5 0 1 1 9.6 4 2.5 2.5 0 0 1 12 7M12 11v10M12 17c-2 0-4-1-5-3M12 19c2 0 4-1 5-3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="i-estate" viewBox="0 0 24 24"><path d="M2 21h20M4 21v-9l6-5 6 5v9M16 21v-6h4v6M8 21v-4h4v4M17 7v-3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3c.6 4.6 2.4 6.4 7 7-4.6.6-6.4 2.4-7 7-.6-4.6-2.4-6.4-7-7 4.6-.6 6.4-2.4 7-7zM19 16c.3 1.8 1 2.6 2.8 2.9-1.8.3-2.5 1-2.8 2.8-.3-1.8-1-2.5-2.8-2.8 1.8-.3 2.5-1.1 2.8-2.9z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 10h17M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+  <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2zM9 8h6M9 12h6M9 16h3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-message" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+  <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-logo" viewBox="0 0 48 48"><path d="M24 5L6 19v24h36V19z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/><path d="M24 40c0-9 3-15 11-18-1 9-5 15-11 18zM24 40c0-7-2-12-8-14 0 7 3 12 8 14z" fill="currentColor"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home" aria-label="Valentine Property &amp; Garden Care">
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-logo"/></svg>
+      <span class="brand-text">
+        <span class="brand-name">Valentine</span>
+        <span class="brand-sub">Property &amp; Garden Care</span>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <ul>
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#why" data-i18n="nav.why">Why Choose Us</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact Us</a></li>
+      </ul>
+      <a class="nav-phone" href="tel:+4740301243">
+        <svg aria-hidden="true"><use href="#i-phone"/></svg> +47 403 01 243
+      </a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language / Språk">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="no" aria-pressed="false">NO</button>
+      </div>
+      <a class="header-phone" href="tel:+4740301243" aria-label="+47 403 01 243">
+        <svg aria-hidden="true"><use href="#i-phone"/></svg><span>+47 403 01 243</span>
+      </a>
+      <a class="btn btn-primary btn-sm header-quote" href="#contact" data-i18n="cta.quote">Request a Quote</a>
+      <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" data-i18n-aria="nav.menu" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-media" aria-hidden="true">
+      <img src="images/hero.svg" alt="" width="1600" height="1000">
+    </div>
+    <div class="container hero-content">
+      <p class="eyebrow eyebrow-light reveal" data-i18n="hero.eyebrow">Cleaning · Garden · Property care in Oslo</p>
+      <h1 class="hero-title reveal" data-i18n="hero.title" data-i18n-html>Clean inside.<br><em>Beautiful outside.</em></h1>
+      <p class="hero-lead reveal" data-i18n="hero.lead">From spotless homes, hotels and restaurants to well-kept gardens and estates — one dependable team that takes care of your property, indoors and out.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-light btn-lg" href="#contact">
+          <span data-i18n="cta.quote">Request a Quote</span>
+          <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+        <a class="btn btn-ghost-light btn-lg" href="tel:+4740301243">
+          <svg aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>+47 403 01 243</span>
+        </a>
+      </div>
+      <ul class="hero-chips reveal">
+        <li><svg aria-hidden="true"><use href="#i-sparkle"/></svg><span data-i18n="hero.chip1">Indoor cleaning</span></li>
+        <li><svg aria-hidden="true"><use href="#i-leaf"/></svg><span data-i18n="hero.chip2">Gardens &amp; landscaping</span></li>
+        <li><svg aria-hidden="true"><use href="#i-key"/></svg><span data-i18n="hero.chip3">Property maintenance</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <figure class="about-img about-img-a"><img src="images/residential.svg" alt="" data-i18n-alt="gallery.g1" loading="lazy" width="800" height="600"></figure>
+        <figure class="about-img about-img-b"><img src="images/landscaping.svg" alt="" data-i18n-alt="gallery.g5" loading="lazy" width="800" height="600"></figure>
+        <div class="about-badge">
+          <svg aria-hidden="true"><use href="#i-pin"/></svg>
+          <span data-i18n="about.badge">Based in Oslo</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="eyebrow reveal" data-i18n="about.eyebrow">About us</p>
+        <h2 class="section-title reveal" data-i18n="about.title">One team for the whole property</h2>
+        <p class="reveal" data-i18n="about.p1">Valentine Property &amp; Garden Care is a cleaning and outdoor-care company based in Oslo. We look after homes, hotels, guest houses, restaurants, offices and private estates — so the people who live, work and stay there can enjoy a space that feels cared for.</p>
+        <p class="reveal" data-i18n="about.p2">Instead of hiring one company for the floors, another for the lawn and a third for the hedges, you get a single point of contact who plans the work around your schedule and the Norwegian seasons.</p>
+        <ul class="pillars">
+          <li class="reveal">
+            <span class="pillar-icon"><svg aria-hidden="true"><use href="#i-home"/></svg></span>
+            <div><h3 data-i18n="about.p1t">Indoors</h3><p data-i18n="about.p1d">Homes, hotels, restaurants and commercial spaces.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="pillar-icon"><svg aria-hidden="true"><use href="#i-leaf"/></svg></span>
+            <div><h3 data-i18n="about.p2t">Outdoors</h3><p data-i18n="about.p2d">Gardens, lawns, hedges, trees and flower beds.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="pillar-icon"><svg aria-hidden="true"><use href="#i-key"/></svg></span>
+            <div><h3 data-i18n="about.p3t">Property</h3><p data-i18n="about.p3d">Ongoing care that keeps an estate in good shape.</p></div>
+          </li>
+        </ul>
+        <a class="link-arrow reveal" href="#services"><span data-i18n="about.cta">See our services</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow reveal" data-i18n="services.eyebrow">Services</p>
+        <h2 class="section-title reveal" data-i18n="services.title">Everything your property needs</h2>
+        <p class="section-lead reveal" data-i18n="services.lead">Choose a single job or combine services into a regular care plan. Every quote is tailored to your property.</p>
+      </header>
+
+      <!-- Cleaning -->
+      <h3 class="service-group reveal"><span data-i18n="services.groupCleaning">Cleaning</span></h3>
+      <div class="card-grid">
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/residential.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-home"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.residential.title">Residential cleaning</h4>
+            <p data-i18n="s.residential.desc">Regular or one-off cleaning for apartments and houses, carried out with care for your home and belongings.</p>
+            <ul class="ticks">
+              <li data-i18n="s.residential.b1">Weekly or fortnightly cleaning</li>
+              <li data-i18n="s.residential.b2">Deep and move-out cleaning</li>
+              <li data-i18n="s.residential.b3">Kitchens, bathrooms and floors</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="residential"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/hotel.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-bed"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.hotel.title">Hotel &amp; guest-house cleaning</h4>
+            <p data-i18n="s.hotel.desc">Reliable room turnover and common-area cleaning that keeps every guest's first impression a good one.</p>
+            <ul class="ticks">
+              <li data-i18n="s.hotel.b1">Room and bathroom turnover</li>
+              <li data-i18n="s.hotel.b2">Lobbies, corridors and stairs</li>
+              <li data-i18n="s.hotel.b3">Schedules that fit check-in times</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="hotel"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/restaurant.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-cutlery"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.restaurant.title">Restaurant cleaning</h4>
+            <p data-i18n="s.restaurant.desc">Thorough cleaning of dining rooms and kitchens outside opening hours, so you can open every day with confidence.</p>
+            <ul class="ticks">
+              <li data-i18n="s.restaurant.b1">Kitchen surfaces and equipment exteriors</li>
+              <li data-i18n="s.restaurant.b2">Dining area, floors and toilets</li>
+              <li data-i18n="s.restaurant.b3">Early-morning or late-night visits</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="restaurant"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/commercial.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-building"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.commercial.title">Commercial cleaning</h4>
+            <p data-i18n="s.commercial.desc">Clean, pleasant workplaces for offices, shops and shared buildings, on a schedule that never gets in the way.</p>
+            <ul class="ticks">
+              <li data-i18n="s.commercial.b1">Offices and meeting rooms</li>
+              <li data-i18n="s.commercial.b2">Shops and showrooms</li>
+              <li data-i18n="s.commercial.b3">Stairwells and shared areas</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="commercial"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Garden & outdoors -->
+      <h3 class="service-group reveal"><span data-i18n="services.groupOutdoor">Garden &amp; outdoors</span></h3>
+      <div class="card-grid">
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/landscaping.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-sprout"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.garden.title">Gardening &amp; landscaping</h4>
+            <p data-i18n="s.garden.desc">From seasonal garden care to reshaping beds, paths and planting areas into an outdoor space you are proud of.</p>
+            <ul class="ticks">
+              <li data-i18n="s.garden.b1">Seasonal garden care</li>
+              <li data-i18n="s.garden.b2">Planting and bed design</li>
+              <li data-i18n="s.garden.b3">Paths and borders</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="garden"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/grass.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-grass"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.grass.title">Grass cutting &amp; bush clearing</h4>
+            <p data-i18n="s.grass.desc">Neat lawns and cleared, open ground — whether it is a small garden or an overgrown plot.</p>
+            <ul class="ticks">
+              <li data-i18n="s.grass.b1">Regular lawn mowing</li>
+              <li data-i18n="s.grass.b2">Edging and trimming</li>
+              <li data-i18n="s.grass.b3">Clearing overgrown areas</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="grass"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/tree.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-tree"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.tree.title">Tree cutting &amp; garden maintenance</h4>
+            <p data-i18n="s.tree.desc">Careful pruning and cutting of trees, plus the everyday maintenance that keeps a garden healthy all year.</p>
+            <ul class="ticks">
+              <li data-i18n="s.tree.b1">Pruning and branch removal</li>
+              <li data-i18n="s.tree.b2">Leaf and debris clean-up</li>
+              <li data-i18n="s.tree.b3">Spring and autumn clean-ups</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="tree"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="card-media"><img src="images/flowers.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-flower"/></svg></span></div>
+          <div class="card-body">
+            <h4 data-i18n="s.flowers.title">Flower trimming &amp; shaping</h4>
+            <p data-i18n="s.flowers.desc">Thoughtful trimming of flowers, shrubs and hedges to keep shapes crisp and plants flowering well.</p>
+            <ul class="ticks">
+              <li data-i18n="s.flowers.b1">Hedge and shrub shaping</li>
+              <li data-i18n="s.flowers.b2">Deadheading and flower care</li>
+              <li data-i18n="s.flowers.b3">Tidy, well-defined beds</li>
+            </ul>
+            <button class="card-cta" type="button" data-service="flowers"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Property care -->
+      <h3 class="service-group reveal"><span data-i18n="services.groupProperty">Property care</span></h3>
+      <article class="service-card service-card-wide reveal">
+        <div class="card-media"><img src="images/estate.svg" alt="" loading="lazy" width="800" height="600"><span class="card-icon"><svg aria-hidden="true"><use href="#i-estate"/></svg></span></div>
+        <div class="card-body">
+          <h4 data-i18n="s.estate.title">Property &amp; estate maintenance</h4>
+          <p data-i18n="s.estate.desc">Ongoing care for private estates, rental properties and shared grounds, indoors and out, under one agreement.</p>
+          <ul class="ticks">
+            <li data-i18n="s.estate.b1">Regular property checks</li>
+            <li data-i18n="s.estate.b2">Outdoor areas and entrances</li>
+            <li data-i18n="s.estate.b3">Combined indoor &amp; outdoor plans</li>
+          </ul>
+          <button class="card-cta" type="button" data-service="estate"><span data-i18n="services.request">Request this service</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section process">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow reveal" data-i18n="process.eyebrow">How it works</p>
+        <h2 class="section-title reveal" data-i18n="process.title">Simple from first call to finished job</h2>
+      </header>
+      <ol class="steps">
+        <li class="step reveal"><span class="step-num">01</span><h3 data-i18n="process.s1t">Tell us what you need</h3><p data-i18n="process.s1d">Call us or send a quote request with a few details about the property and the work.</p></li>
+        <li class="step reveal"><span class="step-num">02</span><h3 data-i18n="process.s2t">Receive a clear quote</h3><p data-i18n="process.s2d">We agree on the scope, timing and price before any work begins.</p></li>
+        <li class="step reveal"><span class="step-num">03</span><h3 data-i18n="process.s3t">We take care of it</h3><p data-i18n="process.s3d">Our team arrives as agreed and leaves your property clean and tidy.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow reveal" data-i18n="gallery.eyebrow">Gallery</p>
+        <h2 class="section-title reveal" data-i18n="gallery.title">A look at the work we do</h2>
+        <p class="section-lead reveal" data-i18n="gallery.lead">Indoor and outdoor services across homes, businesses and estates.</p>
+      </header>
+
+      <div class="filters reveal" role="group" aria-label="Filter">
+        <button type="button" class="filter is-active" data-filter="all" aria-pressed="true" data-i18n="gallery.fAll">All</button>
+        <button type="button" class="filter" data-filter="cleaning" aria-pressed="false" data-i18n="gallery.fCleaning">Cleaning</button>
+        <button type="button" class="filter" data-filter="garden" aria-pressed="false" data-i18n="gallery.fGarden">Garden</button>
+        <button type="button" class="filter" data-filter="property" aria-pressed="false" data-i18n="gallery.fProperty">Property</button>
+      </div>
+
+      <ul class="gallery-grid">
+        <li class="g-item g-wide" data-cat="property"><button type="button"><img src="images/hero.svg" alt="" data-i18n-alt="gallery.g10" loading="lazy" width="1600" height="1000"><span class="g-cap" data-i18n="gallery.g10">Garden and home, cared for together</span></button></li>
+        <li class="g-item" data-cat="cleaning"><button type="button"><img src="images/residential.svg" alt="" data-i18n-alt="gallery.g1" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g1">Bright, freshly cleaned living room</span></button></li>
+        <li class="g-item" data-cat="garden"><button type="button"><img src="images/grass.svg" alt="" data-i18n-alt="gallery.g6" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g6">Freshly striped lawn</span></button></li>
+        <li class="g-item" data-cat="cleaning"><button type="button"><img src="images/hotel.svg" alt="" data-i18n-alt="gallery.g2" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g2">Hotel room ready for the next guest</span></button></li>
+        <li class="g-item" data-cat="garden"><button type="button"><img src="images/flowers.svg" alt="" data-i18n-alt="gallery.g8" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g8">Shaped shrubs and flower beds</span></button></li>
+        <li class="g-item" data-cat="cleaning"><button type="button"><img src="images/restaurant.svg" alt="" data-i18n-alt="gallery.g3" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g3">Spotless restaurant kitchen</span></button></li>
+        <li class="g-item" data-cat="garden"><button type="button"><img src="images/tree.svg" alt="" data-i18n-alt="gallery.g7" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g7">Tree pruning in progress</span></button></li>
+        <li class="g-item" data-cat="property"><button type="button"><img src="images/estate.svg" alt="" data-i18n-alt="gallery.g9" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g9">Well-kept family property</span></button></li>
+        <li class="g-item" data-cat="cleaning"><button type="button"><img src="images/commercial.svg" alt="" data-i18n-alt="gallery.g4" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g4">Clean, calm workspace</span></button></li>
+        <li class="g-item g-wide" data-cat="garden"><button type="button"><img src="images/landscaping.svg" alt="" data-i18n-alt="gallery.g5" loading="lazy" width="800" height="600"><span class="g-cap" data-i18n="gallery.g5">Landscaped garden path</span></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="section why" id="why">
+    <div class="container">
+      <header class="section-head section-head-light">
+        <p class="eyebrow eyebrow-light reveal" data-i18n="why.eyebrow">Why choose us</p>
+        <h2 class="section-title reveal" data-i18n="why.title">Care you can see — and rely on</h2>
+        <p class="section-lead reveal" data-i18n="why.lead">We keep things simple, honest and thorough.</p>
+      </header>
+      <ul class="why-grid">
+        <li class="why-item reveal"><span class="why-icon"><svg aria-hidden="true"><use href="#i-key"/></svg></span><h3 data-i18n="why.w1t">Indoor &amp; outdoor in one call</h3><p data-i18n="why.w1d">One team and one contact person for cleaning, gardens and property care.</p></li>
+        <li class="why-item reveal"><span class="why-icon"><svg aria-hidden="true"><use href="#i-receipt"/></svg></span><h3 data-i18n="why.w2t">Clear quotes, no surprises</h3><p data-i18n="why.w2d">You know what will be done and what it costs before we start.</p></li>
+        <li class="why-item reveal"><span class="why-icon"><svg aria-hidden="true"><use href="#i-calendar"/></svg></span><h3 data-i18n="why.w3t">Flexible scheduling</h3><p data-i18n="why.w3d">Visits planned around your opening hours, guests or family routines.</p></li>
+        <li class="why-item reveal"><span class="why-icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></span><h3 data-i18n="why.w4t">Respect for your property</h3><p data-i18n="why.w4d">We treat every home, garden and business as if it were our own.</p></li>
+        <li class="why-item reveal"><span class="why-icon"><svg aria-hidden="true"><use href="#i-eye"/></svg></span><h3 data-i18n="why.w5t">Attention to detail</h3><p data-i18n="why.w5d">The corners, edges and finishing touches that make a place feel cared for.</p></li>
+        <li class="why-item reveal"><span class="why-icon"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><h3 data-i18n="why.w6t">Local to Oslo</h3><p data-i18n="why.w6d">Based in Oslo, with an eye for local homes, gardens and seasons.</p></li>
+      </ul>
+
+      <div class="seasons">
+        <h3 class="seasons-title reveal" data-i18n="seasons.title">Care that follows the Norwegian year</h3>
+        <ul class="season-list">
+          <li class="season reveal"><span class="season-name" data-i18n="seasons.spring">Spring</span><p data-i18n="seasons.springD">Garden clean-up, first lawn cut and fresh planting.</p></li>
+          <li class="season reveal"><span class="season-name" data-i18n="seasons.summer">Summer</span><p data-i18n="seasons.summerD">Regular mowing, hedge shaping and flower care.</p></li>
+          <li class="season reveal"><span class="season-name" data-i18n="seasons.autumn">Autumn</span><p data-i18n="seasons.autumnD">Leaf clearing, pruning and preparing the garden for winter.</p></li>
+          <li class="season reveal"><span class="season-name" data-i18n="seasons.winter">Winter</span><p data-i18n="seasons.winterD">Deep cleaning indoors while the garden rests.</p></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BAND ============ -->
+  <section class="cta-band">
+    <div class="container cta-inner reveal">
+      <div>
+        <h2 data-i18n="band.title">Ready for a cleaner, greener property?</h2>
+        <p data-i18n="band.text">Tell us about the job and we will get back to you with a tailored quote.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary btn-lg" href="#contact"><span data-i18n="cta.quote">Request a Quote</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-outline btn-lg" href="tel:+4740301243"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>+47 403 01 243</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / QUOTE ============ -->
+  <section class="section contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="eyebrow reveal" data-i18n="contact.eyebrow">Contact us</p>
+        <h2 class="section-title reveal" data-i18n="contact.title">Request a quote</h2>
+        <p class="reveal" data-i18n="contact.lead">Send a few details and we will get back to you. Prefer to talk? Call us directly.</p>
+
+        <a class="contact-phone reveal" href="tel:+4740301243">
+          <span class="contact-phone-icon"><svg aria-hidden="true"><use href="#i-phone"/></svg></span>
+          <span>
+            <span class="contact-label" data-i18n="contact.phoneLabel">Phone</span>
+            <span class="contact-value">+47 403 01 243</span>
+            <span class="contact-hint" data-i18n="contact.phoneHint">Tap the number to call</span>
+          </span>
+        </a>
+        <div class="contact-row reveal">
+          <span class="contact-phone-icon"><svg aria-hidden="true"><use href="#i-pin"/></svg></span>
+          <span>
+            <span class="contact-label" data-i18n="contact.locationLabel">Location</span>
+            <span class="contact-value" data-i18n="contact.location">Oslo, Norway</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="quote-card reveal">
+        <form class="quote-form" id="quote-form" novalidate>
+          <div class="field">
+            <label for="f-name" data-i18n="form.name">Full name</label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-phone" data-i18n="form.phone">Phone number</label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required>
+              <p class="field-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-email" data-i18n="form.email">Email (optional)</label>
+              <input id="f-email" name="email" type="email" autocomplete="email">
+              <p class="field-error" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-service" data-i18n="form.service">Service</label>
+            <div class="select-wrap">
+              <select id="f-service" name="service" required>
+                <option value="" data-i18n="form.servicePlaceholder">Choose a service</option>
+                <option value="residential" data-i18n="s.residential.title">Residential cleaning</option>
+                <option value="hotel" data-i18n="s.hotel.title">Hotel &amp; guest-house cleaning</option>
+                <option value="restaurant" data-i18n="s.restaurant.title">Restaurant cleaning</option>
+                <option value="commercial" data-i18n="s.commercial.title">Commercial cleaning</option>
+                <option value="garden" data-i18n="s.garden.title">Gardening &amp; landscaping</option>
+                <option value="grass" data-i18n="s.grass.title">Grass cutting &amp; bush clearing</option>
+                <option value="tree" data-i18n="s.tree.title">Tree cutting &amp; garden maintenance</option>
+                <option value="flowers" data-i18n="s.flowers.title">Flower trimming &amp; shaping</option>
+                <option value="estate" data-i18n="s.estate.title">Property &amp; estate maintenance</option>
+                <option value="several" data-i18n="form.several">Several services</option>
+              </select>
+            </div>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="f-address" data-i18n="form.address">Address or area</label>
+              <input id="f-address" name="address" type="text" autocomplete="street-address">
+              <p class="field-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="f-date" data-i18n="form.date">Preferred date (optional)</label>
+              <input id="f-date" name="date" type="date">
+              <p class="field-error" aria-live="polite"></p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-message" data-i18n="form.message">Describe the job</label>
+            <textarea id="f-message" name="message" rows="4" data-i18n-placeholder="form.messagePh" placeholder="E.g. size of the property, how often, anything we should know"></textarea>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="field field-check">
+            <label class="check">
+              <input type="checkbox" name="consent" id="f-consent" required>
+              <span data-i18n="form.consent">I agree that Valentine Property &amp; Garden Care may contact me about this request.</span>
+            </label>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <button class="btn btn-primary btn-lg btn-block" type="submit"><span data-i18n="form.submit">Send request</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </form>
+
+        <!-- Shown after a valid submit. The site has no server, so the request is sent by SMS or call. -->
+        <div class="quote-result" id="quote-result" hidden tabindex="-1">
+          <span class="result-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span>
+          <h3 data-i18n="form.readyTitle">Almost there</h3>
+          <p data-i18n="form.readyText">Your request is ready. Tap “Send by SMS” to send it to us, or call us directly.</p>
+          <pre class="result-summary" id="result-summary"></pre>
+          <div class="result-actions">
+            <a class="btn btn-primary" id="sms-link" href="sms:+4740301243"><svg aria-hidden="true"><use href="#i-message"/></svg><span data-i18n="form.sms">Send by SMS</span></a>
+            <a class="btn btn-outline" href="tel:+4740301243"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>+47 403 01 243</span></a>
+            <button class="btn btn-text" type="button" id="copy-btn"><svg aria-hidden="true"><use href="#i-copy"/></svg><span data-i18n="form.copy">Copy text</span></button>
+            <button class="btn btn-text" type="button" id="edit-btn" data-i18n="form.edit">Edit request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand brand-light" href="#home">
+        <svg class="brand-mark" aria-hidden="true"><use href="#i-logo"/></svg>
+        <span class="brand-text"><span class="brand-name">Valentine</span><span class="brand-sub">Property &amp; Garden Care</span></span>
+      </a>
+      <p data-i18n="footer.tagline">Cleaning, garden and property care in Oslo.</p>
+    </div>
+    <div>
+      <h3 data-i18n="footer.explore">Explore</h3>
+      <ul>
+        <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#why" data-i18n="nav.why">Why Choose Us</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 data-i18n="footer.services">Services</h3>
+      <ul>
+        <li data-i18n="services.groupCleaning">Cleaning</li>
+        <li data-i18n="services.groupOutdoor">Garden &amp; outdoors</li>
+        <li data-i18n="services.groupProperty">Property care</li>
+      </ul>
+    </div>
+    <div>
+      <h3 data-i18n="footer.contact">Contact</h3>
+      <ul>
+        <li><a href="tel:+4740301243">+47 403 01 243</a></li>
+        <li data-i18n="contact.location">Oslo, Norway</li>
+        <li><a href="#contact" data-i18n="cta.quote">Request a Quote</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year">2026</span> Valentine Property &amp; Garden Care. <span data-i18n="footer.rights">All rights reserved.</span></p>
+    <a href="#home" class="to-top" data-i18n="footer.top">Back to top</a>
+  </div>
+</footer>
+
+<!-- Mobile action bar -->
+<div class="mobile-bar" aria-label="Quick actions">
+  <a href="tel:+4740301243" class="mobile-bar-call"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="mobile.call">Call</span></a>
+  <a href="#contact" class="mobile-bar-quote"><span data-i18n="mobile.quote">Get a quote</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true">
+  <button class="lb-btn lb-close" type="button" data-i18n-aria="lightbox.close" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"/></svg></button>
+  <button class="lb-btn lb-prev" type="button" data-i18n-aria="lightbox.prev" aria-label="Previous"><svg aria-hidden="true"><use href="#i-chev-l"/></svg></button>
+  <figure class="lb-figure">
+    <img id="lb-img" src="" alt="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" type="button" data-i18n-aria="lightbox.next" aria-label="Next"><svg aria-hidden="true"><use href="#i-chev-r"/></svg></button>
+</div>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
